@@ -10,12 +10,32 @@
 	<title>Coder Girl</title>
 </head>
 <body>
-
+<!--menu de navegacion-->
 	<header>
-		<div class="container">
-			<h2>Code Girls</h2>
-		</div>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Code Girls</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Documental</a></li>
+						<li><a href="#">Hackaton</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</header>
+<!--foto central-->	
 	<div class="container">
 		<section class="main row">
 			<article class="col-md-12">
@@ -40,6 +60,7 @@
 			</div>
 		</section>
 	</div>		
+<!--documental-->	
 	<div class="container">
 		<div class="row fondo">
 			<div class="col-md-6">
@@ -60,6 +81,7 @@
 			</div>
 		</div>
 	</div>
+<!--seccion imarilla-->	
 	<div class="container fondo-amarillo">
 		<div class="row fondo">
 			<div class="col-md-6">
@@ -71,58 +93,72 @@
 					<P>
 						¡Participa en nuestra hackathon "Love is Respect"!
 					</P>
-					<p>Idea soluciones a las probleaticas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10 am.</p>
+					<p>
+						Idea soluciones a las probleaticas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10 am.
+					</p>
 					<button class="btn btn-primary">Inscribete</button>
 				</div>
 			</div>
 		</div>
 	</div>
+<!--formulario contacto-->	
 	<div class="container">
-		<div class="row">
+		<div class="row fondo">
 			<div class="col-md-8">
 				<img src="img/made_with_code.jpg">
 			</div>	
-		
+
 			<div class="col-md-4">
-			<div>
-				<h2>CONTACTO</h2>
-				<h4><b>Code Girls</b></h4>
-				<p>
-					795 Folsom Ave, Suite 600
-				</p>
-				<p>
-					San Francisco, CA 94107
-				</p>
-				<p>
-					<ins>Fono:</ins>(123) 456-7890
-				</p>
-			</div>
-
-			<form>
-				<div class="form-group">
-					<label class="sr-only" form="nombre">nombre:</label>
-					<input class="form-control" id="nombre" type="text" placeholder="Nombre:">
-					<br>
-					<label class="sr-only" form="email">Email</label>
-					<input class="form-control" id="email" type="text" placeholder="Email">
-					<br> 
-					<label class="sr-only" form="asunto">Asunto</label>
-					<input class="form-control" id="asunto" type="text" placeholder="Asunto">
-					<br>   
-					<label class="sr-only" for="mensaje">mensaje</label>
-					<textarea class="form-control" rows="8" id="mensaje" placeholder="Mensaje"></textarea>
-
+				<div>
+					<h2>CONTACTO</h2>
+					<h4><b>Code Girls</b></h4>
+					<p>
+						795 Folsom Ave, Suite 600
+					</p>
+					<p>
+						San Francisco, CA 94107
+					</p>
+					<p>
+						<ins>Fono:</ins>(123) 456-7890
+					</p>
 				</div>
-				<button class="btn btn-primary">Enviar</button>
-			</form>
+
+				<form>
+					<div class="form-group">
+						<label class="sr-only" form="nombre">nombre:</label>
+						<input class="form-control" id="nombre" type="text" placeholder="Nombre:">
+						<br>
+						<label class="sr-only" form="email">Email</label>
+						<input class="form-control" id="email" type="text" placeholder="Email">
+						<br> 
+						<label class="sr-only" form="asunto">Asunto</label>
+						<input class="form-control" id="asunto" type="text" placeholder="Asunto">
+						<br>   
+						<label class="sr-only" for="mensaje">mensaje</label>
+						<textarea class="form-control" rows="8" id="mensaje" placeholder="Mensaje"></textarea>
+
+					</div>
+					<button class="btn btn-primary">Enviar</button>
+				</form>
+			</div>
 		</div>
 	</div>
-</div>
+<!--footer-->	
+	<footer class="celeste">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-12">
+					<p>© 2016 Code Girl. Diseñado por <span>Laboratoria</span></p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
 
 
-<!-- Latest compiled and minified JavaScript -->
+	<!-- Latest compiled and minified JavaScript -->
 	<script src="http://code.jquery.com/jquery-latest.js"</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
-</body>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	</body>
 </html>

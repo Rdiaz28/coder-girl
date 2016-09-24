@@ -1,6 +1,5 @@
-header{
-	background-color: #EDECEC;
-}
+
+/*------foto central------------*/
 .foto-central{
     text-align: center;
 	background-image: url(../img/home.jpg);
@@ -9,6 +8,11 @@ header{
 	width: 100%;
 	padding-top:200px;
 }
+h1{
+	color: #FFFFFF;
+}
+
+/*-----------documental--------------*/
 
 video{
 	max-width: 100%;
@@ -32,6 +36,8 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+/*------------seccion amarilla----------------*/
 img{
 	max-width: 100%;
 	height:auto;
@@ -52,4 +58,20 @@ img{
 .fondo-amarillo{
 	background-color: #F6FF03;
 
+}
+
+/*-------------footer---------------*/
+.celeste{
+	background-color: #B6D4F2;
+	height: 80px;
+	padding-top: 30px;
+    margin-top: 30px;
+
+}
+
+footer p{
+	padding-left: 40px;
+}
+p span{
+	color: #FBFE03;
 }
